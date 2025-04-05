@@ -1,0 +1,24 @@
+.wishlist{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 70px; 
+    text-align: justify;
+    font-family: 'Lucida Sans', sans-serif;
+    margin-top: 70px; 
+    flex-wrap: wrap; 
+}
+
+.wishlistButton{
+    background-color: burlywood;
+    font-family: 'Lucida Sans', sans-serif;
+    padding: 10px 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.wishlist img{
+    height:300px;
+    width:200px;
+}

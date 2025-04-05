@@ -1,0 +1,39 @@
+.navbar{
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.links{
+    margin-left: 20px;
+    display: flex;
+    padding-left: 650px;
+}
+
+.links .a{
+    margin-right: 20px;
+    color: black;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+  background-color:burlywood;
+}
+  
+a:hover, a:active {
+    background-color:bisque;
+}
+  
+.a{
+    text-decoration: none;
+    padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+  background-color:burlywood;
+}

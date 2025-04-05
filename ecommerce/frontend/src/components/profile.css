@@ -1,0 +1,81 @@
+.profile-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+.profile-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    color: #555;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.edit-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+.edit-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+.edit-form input:focus {
+    outline: none;
+    border-color: burlywood;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+.button-edit {
+    background-color: burlywood;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.button-edit:hover {
+    background-color:burlywood;
+}
+
+.button-edit:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button + button {
+    margin-left: 10px;
+}

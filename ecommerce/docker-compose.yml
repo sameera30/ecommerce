@@ -1,0 +1,7 @@
+docker run --network=ecommerce --name=mongodb -d -p 27017:27017 -v D:/opt/data:/data/db mongo:latest
+
+docker build -t backend .
+docker run --name=backend --network=ecommerce -d -p 5000:5000 backend
+
+docker build -t frontend .
+docker run --name=frontend --network=ecommerce -d -p 3000:3000 frontend
